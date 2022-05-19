@@ -1,0 +1,12 @@
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" backupGlobals="false" backupStaticAttributes="false" colors="true" bootstrap="tests/bootstrap.php" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" processIsolation="false" stopOnFailure="false" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
+  <coverage processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">tests/src/</directory>
+    </include>
+  </coverage>
+  <testsuites>
+    <testsuite name="TestSuite">
+      <directory>tests/src/</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
